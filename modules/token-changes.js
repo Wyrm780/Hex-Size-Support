@@ -99,7 +99,7 @@ Token.prototype.refresh = (function () {
 					if(this.sortableChildren == false){
 						this.sortableChildren = true;
 					}
-					this.border.zIndex = 10;
+					this.border.zIndex = 0;
 				}
 			}
 		}
